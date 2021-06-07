@@ -1,0 +1,128 @@
+Based on mi8
+
+Two Examples:
+
+Single Finger:
+
+finger down:
+/dev/input/event3: EV_ABS       ABS_MT_TRACKING_ID   0000074b            
+/dev/input/event3: EV_KEY       BTN_TOUCH            DOWN                
+/dev/input/event3: EV_KEY       BTN_TOOL_FINGER      DOWN                
+/dev/input/event3: EV_ABS       ABS_MT_POSITION_X    00000143            
+/dev/input/event3: EV_ABS       ABS_MT_POSITION_Y    00000671            
+/dev/input/event3: EV_SYN       SYN_REPORT           00000000            
+
+
+finger move:
+/dev/input/event3: EV_ABS       ABS_MT_POSITION_X    00000144            
+/dev/input/event3: EV_SYN       SYN_REPORT           00000000            
+/dev/input/event3: EV_ABS       ABS_MT_POSITION_X    00000145            
+/dev/input/event3: EV_SYN       SYN_REPORT           00000000            
+/dev/input/event3: EV_ABS       ABS_MT_POSITION_X    00000146            
+/dev/input/event3: EV_SYN       SYN_REPORT           00000000            
+/dev/input/event3: EV_ABS       ABS_MT_POSITION_X    00000147            
+/dev/input/event3: EV_SYN       SYN_REPORT           00000000            
+/dev/input/event3: EV_ABS       ABS_MT_POSITION_X    00000148            
+/dev/input/event3: EV_SYN       SYN_REPORT           00000000            
+/dev/input/event3: EV_ABS       ABS_MT_POSITION_X    00000149            
+/dev/input/event3: EV_SYN       SYN_REPORT           00000000            
+
+finger up:
+/dev/input/event3: EV_ABS       ABS_MT_TRACKING_ID   ffffffff            
+/dev/input/event3: EV_KEY       BTN_TOUCH            UP                  
+/dev/input/event3: EV_KEY       BTN_TOOL_FINGER      UP                  
+/dev/input/event3: EV_SYN       SYN_REPORT           00000000            
+
+
+Double Finger:
+
+finger A down:
+/dev/input/event3: EV_ABS       ABS_MT_TRACKING_ID   0000074c            
+/dev/input/event3: EV_KEY       BTN_TOUCH            DOWN                
+/dev/input/event3: EV_KEY       BTN_TOOL_FINGER      DOWN                
+/dev/input/event3: EV_ABS       ABS_MT_POSITION_X    000000e7            
+/dev/input/event3: EV_ABS       ABS_MT_POSITION_Y    00000673            
+/dev/input/event3: EV_SYN       SYN_REPORT           00000000            
+
+finger A move:
+/dev/input/event3: EV_ABS       ABS_MT_POSITION_X    000000e8            
+/dev/input/event3: EV_SYN       SYN_REPORT           00000000            
+/dev/input/event3: EV_ABS       ABS_MT_POSITION_X    000000e9            
+/dev/input/event3: EV_SYN       SYN_REPORT           00000000            
+/dev/input/event3: EV_ABS       ABS_MT_POSITION_X    000000ea            
+/dev/input/event3: EV_SYN       SYN_REPORT           00000000            
+/dev/input/event3: EV_ABS       ABS_MT_POSITION_X    000000eb            
+/dev/input/event3: EV_SYN       SYN_REPORT           00000000            
+/dev/input/event3: EV_ABS       ABS_MT_POSITION_X    000000ec            
+/dev/input/event3: EV_SYN       SYN_REPORT           00000000            
+/dev/input/event3: EV_ABS       ABS_MT_POSITION_X    000000ed            
+/dev/input/event3: EV_SYN       SYN_REPORT           00000000            
+/dev/input/event3: EV_ABS       ABS_MT_POSITION_X    000000ee            
+/dev/input/event3: EV_SYN       SYN_REPORT           00000000            
+/dev/input/event3: EV_ABS       ABS_MT_POSITION_X    000000ef            
+/dev/input/event3: EV_SYN       SYN_REPORT           00000000            
+
+finger B down:
+/dev/input/event3: EV_ABS       ABS_MT_SLOT          00000001            
+/dev/input/event3: EV_ABS       ABS_MT_TRACKING_ID   0000074d            
+/dev/input/event3: EV_ABS       ABS_MT_POSITION_X    000002e0            
+/dev/input/event3: EV_ABS       ABS_MT_POSITION_Y    00000666            
+/dev/input/event3: EV_SYN       SYN_REPORT           00000000            
+
+finger A move
+/dev/input/event3: EV_ABS       ABS_MT_SLOT          00000000            
+/dev/input/event3: EV_ABS       ABS_MT_POSITION_X    000000f0            
+/dev/input/event3: EV_SYN       SYN_REPORT           00000000            
+/dev/input/event3: EV_ABS       ABS_MT_POSITION_X    000000f1            
+/dev/input/event3: EV_SYN       SYN_REPORT           00000000    
+
+
+/dev/input/event3: EV_ABS       ABS_MT_SLOT          00000001            
+/dev/input/event3: EV_ABS       ABS_MT_POSITION_X    000002e1            
+/dev/input/event3: EV_SYN       SYN_REPORT           00000000            
+/dev/input/event3: EV_ABS       ABS_MT_POSITION_X    000002e2            
+/dev/input/event3: EV_SYN       SYN_REPORT           00000000            
+/dev/input/event3: EV_ABS       ABS_MT_POSITION_X    000002e3            
+/dev/input/event3: EV_SYN       SYN_REPORT           00000000            
+/dev/input/event3: EV_ABS       ABS_MT_POSITION_X    000002e4            
+/dev/input/event3: EV_SYN       SYN_REPORT           00000000            
+/dev/input/event3: EV_ABS       ABS_MT_POSITION_X    000002e5            
+/dev/input/event3: EV_SYN       SYN_REPORT           00000000            
+/dev/input/event3: EV_ABS       ABS_MT_POSITION_X    000002e6            
+/dev/input/event3: EV_SYN       SYN_REPORT           00000000            
+/dev/input/event3: EV_ABS       ABS_MT_POSITION_X    000002e7            
+/dev/input/event3: EV_SYN       SYN_REPORT           00000000            
+/dev/input/event3: EV_ABS       ABS_MT_POSITION_X    000002e8            
+/dev/input/event3: EV_SYN       SYN_REPORT           00000000            
+/dev/input/event3: EV_ABS       ABS_MT_POSITION_X    000002e9            
+/dev/input/event3: EV_SYN       SYN_REPORT           00000000                  
+
+finger A up:
+/dev/input/event3: EV_ABS       ABS_MT_TRACKING_ID   ffffffff            
+
+finger B move:
+/dev/input/event3: EV_ABS       ABS_MT_SLOT          00000001            
+/dev/input/event3: EV_ABS       ABS_MT_POSITION_X    000002ea            
+/dev/input/event3: EV_SYN       SYN_REPORT           00000000            
+
+finger B up:
+/dev/input/event3: EV_ABS       ABS_MT_TRACKING_ID   ffffffff            
+/dev/input/event3: EV_KEY       BTN_TOUCH            UP                  
+/dev/input/event3: EV_KEY       BTN_TOOL_FINGER      UP                  
+/dev/input/event3: EV_SYN       SYN_REPORT           00000000
+
+
+
+
+/dev/input/event3: EV_ABS       ABS_MT_TRACKING_ID   0000074b            
+/dev/input/event3: EV_KEY       BTN_TOUCH            DOWN                
+/dev/input/event3: EV_KEY       BTN_TOOL_FINGER      DOWN                
+/dev/input/event3: EV_ABS       ABS_MT_POSITION_X    00000143            
+/dev/input/event3: EV_ABS       ABS_MT_POSITION_Y    00000671            
+/dev/input/event3: EV_SYN       SYN_REPORT           00000000     
+
+
+/dev/input/event3: EV_ABS       ABS_MT_TRACKING_ID   ffffffff            
+/dev/input/event3: EV_KEY       BTN_TOUCH            UP                  
+/dev/input/event3: EV_KEY       BTN_TOOL_FINGER      UP                  
+/dev/input/event3: EV_SYN       SYN_REPORT           00000000
